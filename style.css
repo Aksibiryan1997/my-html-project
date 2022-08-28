@@ -1,20 +1,40 @@
 body {
     margin: 0;
 }
+@font-face {
+    font-family: Exo2Medium;
+    src: url(fonts/Exo2Medium.ttf);
+}
 .container {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
 }
-h3,span {
-    color: rgb(211, 122, 128);
+span {
+    color: rgb(236, 105, 107);
+    font-family: 'Exo2Medium';
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.other {
+    font-size: medium;
 }
 h2 {
     font-size: 40px;
+    font-family: 'Exo2Medium';
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.85);
+}
+p {
+    font-size: 16.5px;
+    font-family: 'Exo2Medium';
+    line-height: 25px;
+    word-spacing: 2px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
 }
 .middletown {
-    padding: 80px;
-    padding-right: 140px;
+    padding: 60px 140px 100px 140px;
 }
 .box-1 {
     flex-grow: 3;
