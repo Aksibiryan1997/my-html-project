@@ -8,14 +8,8 @@
     width: 54vw;
     justify-content: center;
     align-items: center;
-}
-.design2-images__img1 {
-    position: relative;
-    height: 540px;
-    margin-right: auto;
-}
-.design2-images__img2 {
-    position: absolute;
+    background-image: url("../img/bg/bgdescription.png");
+    background-size: cover;
 }
 .text-box {
     display: flex;
