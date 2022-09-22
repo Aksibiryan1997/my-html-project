@@ -25,6 +25,10 @@
 }
 .img-container {
     overflow: hidden;
+    width: 41.3vw;
+    height: 724px;
+    background-image: url("../img/bg/bgintro.jpg");
+    background-size: cover;
 }
 .info-design1__img-container {
     margin-left: auto;
