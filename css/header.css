@@ -1,6 +1,7 @@
 .header {
     background-image: url("../img/bg/bgindex\ \(3\).jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 780px;
     display: flex;
     flex-direction: column;
