@@ -4,6 +4,7 @@
     align-items: center;
     min-height: 648px;
     background-image: url("../img/bg/bgclients.jpg");
+    background-size: cover;
     overflow: hidden;
 }
 .element-block {
