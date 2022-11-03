@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+.appWeather {
+    background-color: rgb(175,202,227);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 500px;
+}
+.appWeather__searching-city{
+    width: 175px;
+    height: 20px;
+}
+.appWeather__submitting{
+    width: 94px;
+    height: 26px;
+}
+.appWeather__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+}
+.appWeather__datas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+}
+.appWeather__timing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    margin-left: auto;
+}
